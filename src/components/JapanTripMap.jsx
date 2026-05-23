@@ -3,7 +3,7 @@ import { ComposableMap, Geographies, Geography, Marker } from "react-simple-maps
 import { useNavigate } from "react-router-dom";
 import japanGeo from "../data/japan-prefectures-lite.json";
 
-const chubuUrl = "https://phjuan0408-code.github.io/my-nagoya-trip/";
+const chubuUrl = "https://phjuan0408-code.github.io/nagoya-trip-2026/";
 
 const regions = [
   {
