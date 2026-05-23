@@ -1,5 +1,5 @@
 {
-  "homepage": "https://codyruan.github.io/my-shikoku-trip",
+  "homepage": "https://phjuan0408-code.github.io/my-shikoku-trip",
   "name": "my-shikoku-trip",
   "version": "0.1.0",
   "private": true,
@@ -22,6 +22,7 @@
     "autoprefixer": "^10.4.0",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.0",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.0.0"
   },
   "scripts": {
@@ -30,7 +31,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "optimize:images": "node scripts/convert-images-to-webp.mjs"
   },
   "browserslist": {
     "production": [

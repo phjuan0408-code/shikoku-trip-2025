@@ -15,8 +15,8 @@ export default function Layout() {
 
       {/* 通用作者頁尾 */}
       <SiteFooter
-        authorImage="./images/me-on-train.jpeg"
-        bannerImage="./images/olive-island-sunset.jpeg"
+        authorImage="./images/me-on-train.webp"
+        bannerImage="./images/olive-island-sunset.webp"
         bannerAlt="View of Shodoshima"
         authorDescription={`四國八天七夜紀錄：\n一個沒開車、拍照不太會，但玩得很開心的大學生。`}
       />

@@ -4,7 +4,7 @@ const foodData = [
       name: "橄欖霜淇淋",
       type: "冰品",
       images: [
-        { src: "./images/food/Shodoshima-olive-ice-cream.jpeg", position: 30},
+        { src: "./images/food/Shodoshima-olive-ice-cream.webp", position: 30},
       ],
       description: "小豆島限定的霜淇淋，冰淇淋甜而不膩，搭配初榨橄欖油帶有淡淡蕃茄香氣，味道超讚！",
       location: "小豆島橄欖公園",
@@ -16,9 +16,9 @@ const foodData = [
       name: "橄欖生素麵",
       type: "烏龍麵",
       images: [
-        { src: "./images/food/Shodoshima-noodle1.jpeg", position: 80},
-        { src: "./images/food/Shodoshima-noodle2.jpeg", position: 80},
-        { src: "./images/food/Shodoshima-noodle3.jpeg", position: 60},
+        { src: "./images/food/Shodoshima-noodle1.webp", position: 80},
+        { src: "./images/food/Shodoshima-noodle2.webp", position: 80},
+        { src: "./images/food/Shodoshima-noodle3.webp", position: 60},
       ],
       description: "小豆島限定的奢華生素麵，以橄欖果汁與初榨橄欖油製作，Q 彈滑順，一口接一口停不下來！",
       location: "手延べ素麺 なかぶ庵",
@@ -30,7 +30,7 @@ const foodData = [
       name: "醬油之鄉麻糬",
       type: "其他",
       images: [
-        { src: "./images/food/Shodoshima-mochi.jpeg", position: 80},
+        { src: "./images/food/Shodoshima-mochi.webp", position: 80},
       ],
       description: "炭火慢烤的麻糬配上鮮釀醬油，鹹香中帶著微微煙燻氣息，整體氛圍感十足。",
       location: "醬油之鄉",
@@ -42,8 +42,8 @@ const foodData = [
       name: "三太郎手打烏龍麵",
       type: "烏龍麵",
       images: [
-        { src: "./images/food/Shodoshima-udon-1.jpeg", position: 20},
-        { src: "./images/food/Shodoshima-udon-2.jpeg", position: 60},
+        { src: "./images/food/Shodoshima-udon-1.webp", position: 20},
+        { src: "./images/food/Shodoshima-udon-2.webp", position: 60},
       ],
       description: "在地人氣烏龍麵店，老闆娘親切熱情，麵條Q彈有勁，吃得出手打的誠意。",
       location: "手打うどん 三太郎",
@@ -55,7 +55,7 @@ const foodData = [
       name: "Minori Gelato",
       type: "冰品",
       images: [
-        { src: "./images/food/Shodoshima-gelato.jpeg", position: 45},
+        { src: "./images/food/Shodoshima-gelato.webp", position: 45},
       ],
       description: "傳說中小豆島最強冰店！米倉改建的港口小店，用在地食材做出像魔法一樣的義式冰淇淋。",
       location: "Minori Gelato",
@@ -67,7 +67,7 @@ const foodData = [
       name: "麺や神龍",
       type: "拉麵",
       images: [
-        { src: "./images/food/takamatsu-ramen-dragon.jpeg", position: 15},
+        { src: "./images/food/takamatsu-ramen-dragon.webp", position: 15},
       ],
       description: "坐落在紅燈區的拉麵店，營業時間到很晚，但味道普通。",
       location: "馬場通",
@@ -79,7 +79,7 @@ const foodData = [
       name: "炙燒鰹魚刺身（かつおのたたき）",
       type: "其他",
       images: [
-        { src: "./images/food/takamatsu-snake-fish.jpeg", position: 45},
+        { src: "./images/food/takamatsu-snake-fish.webp", position: 45},
       ],
       description: "香川名產炙燒鰹魚刺身，表面微焦、內裡柔嫩，風味濃郁，一口吃出炙香與鮮味。可惜略帶一點腥味，不然就完美了！",
       location: "マルナカ 田町店",
@@ -91,7 +91,7 @@ const foodData = [
       name: "黑毛和牛燒肉（肩ロース）",
       type: "其他",
       images: [
-        { src: "./images/food/takamatsu-snake-beef.jpeg", position: 90},
+        { src: "./images/food/takamatsu-snake-beef.webp", position: 90},
       ],
       description: "超市就能買到的黑毛和牛，油花豐富、入口即化，加點小豆島香料鹽更對味！",
       location: "マルナカ 田町店",
@@ -103,7 +103,7 @@ const foodData = [
       name: "麥當勞鬆餅堡",
       type: "其他",
       images: [
-        { src: "./images/food/takamatsu-mc.jpeg", position: 30},
+        { src: "./images/food/takamatsu-mc.webp", position: 30},
       ],
       description: "秒殺鬆餅堡，在這裡輕鬆吃得到，悠閒早晨的完美開場。",
       location: "高松兵庫町商店街",
@@ -115,7 +115,7 @@ const foodData = [
       name: "麵處 綿谷",
       type: "烏龍麵",
       images: [
-        { src: "./images/food/takamatsu-udon.jpeg", position: 30},
+        { src: "./images/food/takamatsu-udon.webp", position: 30},
       ],
       description: "丸龜人的日常烏龍麵。牛肉鋪滿整碗，炸物自選、蔥花隨加，豪邁又滿足。",
       location: "丸龜",
@@ -127,9 +127,9 @@ const foodData = [
       name: "拉面锡虫",
       type: "拉麵",
       images: [
-        { src: "./images/food/takamatsu-ramen-bugs-1.jpeg", position: 30},
-        { src: "./images/food/takamatsu-ramen-bugs-2.jpeg", position: 25},
-        { src: "./images/food/takamatsu-ramen-bugs-3.jpeg", position: 15},
+        { src: "./images/food/takamatsu-ramen-bugs-1.webp", position: 30},
+        { src: "./images/food/takamatsu-ramen-bugs-2.webp", position: 25},
+        { src: "./images/food/takamatsu-ramen-bugs-3.webp", position: 15},
       ],
       description: "清爽卻有深度的煮干湯頭，沒有海腥味，是一碗水準之上的拉麵。",
       location: "金昆羅街道",
@@ -141,8 +141,8 @@ const foodData = [
       name: "和三盆糖蕨餅",
       type: "其他",
       images: [
-        { src: "./images/food/takamatsu-mochi-1.jpeg", position: 40},
-        { src: "./images/food/takamatsu-mochi-2.jpeg", position: 55},
+        { src: "./images/food/takamatsu-mochi-1.webp", position: 40},
+        { src: "./images/food/takamatsu-mochi-2.webp", position: 55},
       ],
       description: "和三盆糖製成的蕨餅，Q彈清甜，一吃驚豔，後悔沒多買幾盒。",
       location: "丸龜町商店街",
@@ -154,7 +154,7 @@ const foodData = [
       name: "Coolish",
       type: "冰品",
       images: [
-        { src: "./images/food/takamatsu-coolish.jpeg", position: 35},
+        { src: "./images/food/takamatsu-coolish.webp", position: 35},
       ],
       description: "台灣捨不得買，在日本當水喝，爽！",
       location: "マルナカ 田町店",
@@ -166,8 +166,8 @@ const foodData = [
       name: "麺屋 六根",
       type: "拉麵",
       images: [
-        { src: "./images/food/tokushima-ramen-rock-1.jpeg", position: 40},
-        { src: "./images/food/tokushima-ramen-rock-2.jpeg", position: 50},
+        { src: "./images/food/tokushima-ramen-rock-1.webp", position: 40},
+        { src: "./images/food/tokushima-ramen-rock-2.webp", position: 50},
       ],
       description: "德島站旁的沾麵專門店，湯頭濃郁、麵條Q彈，還能加湯變成另一種美味。厚切叉燒＋三大片海苔，份量十足超滿足！",
       location: "德島駛",
@@ -179,8 +179,8 @@ const foodData = [
       name: "堂の浦",
       type: "拉麵",
       images: [
-        { src: "./images/food/tokushima-ramen-fish-1.jpeg", position: 20},
-        { src: "./images/food/tokushima-ramen-fish-2.jpeg", position: 45},
+        { src: "./images/food/tokushima-ramen-fish-1.webp", position: 20},
+        { src: "./images/food/tokushima-ramen-fish-2.webp", position: 45},
       ],
       description: "主打鹽味鯛魚拉麵與明太子奶油拉麵，風味獨特又美味，帶來與德島拉麵不同的驚喜。",
       location: "德島駛",
@@ -192,7 +192,7 @@ const foodData = [
       name: "雷神冰棒",
       type: "冰品",
       images: [
-        { src: "./images/food/tokushima-ice-thunder.jpeg", position: 40},
+        { src: "./images/food/tokushima-ice-thunder.webp", position: 40},
       ],
       description: "把巧克力雷神變成冰棒的神奇存在，外層酥脆、內餡濃郁，吃起來超滿足！",
       location: "7-ELEVEN JR德島車站前店",
@@ -204,8 +204,8 @@ const foodData = [
       name: "渦見茶屋",
       type: "其他",
       images: [
-        { src: "./images/food/tokushima-fish-rice-1.jpeg", position: 50},
-        { src: "./images/food/tokushima-fish-rice-2.jpeg", position: 10},
+        { src: "./images/food/tokushima-fish-rice-1.webp", position: 50},
+        { src: "./images/food/tokushima-fish-rice-2.webp", position: 10},
       ],
       description: "當日現撈的鳴門鯛，炊飯香氣撲鼻，生魚片鮮甜 Q 彈，是來鳴門不可錯過的在地美味。",
       location: "鳴門市",
@@ -217,7 +217,7 @@ const foodData = [
       name: "滝の焼餅",
       type: "其他",
       images: [
-        { src: "./images/food/tokushima-cake.jpeg", position: 25},
+        { src: "./images/food/tokushima-cake.webp", position: 25},
       ],
       description: "擁有超過 400 年歷史的德島傳統和菓子，外脆內軟、紅豆香甜，還有抹茶和芝麻等口味，推薦一定要來吃！",
       location: "和田の屋 本店",
@@ -229,7 +229,7 @@ const foodData = [
       name: "中華そば いのたに",
       type: "拉麵",
       images: [
-        { src: "./images/food/tokushima-ramen-Inotani.jpeg", position: 50},
+        { src: "./images/food/tokushima-ramen-Inotani.webp", position: 50},
       ],
       description: "創業超過 50 年的德島拉麵老店，牆上還掛有前首相安倍晉三的簽名。濃厚豚骨醬油湯頭搭配豬肉片與生雞蛋，是最經典的德島拉麵風味。",
       location: "中華そば いのたに",
@@ -241,7 +241,7 @@ const foodData = [
       name: "蕃茄 × 麵包 × 藍紋起司 × 四國牛乳",
       type: "其他",
       images: [
-        { src: "./images/food/tokushima-snake-cheese-bread.jpeg", position: 40},
+        { src: "./images/food/tokushima-snake-cheese-bread.webp", position: 40},
       ],
       description: "超市買的麵包夾番茄配藍紋起司，再加一杯四國牛乳，就是晚上簡單又幸福的時光。可惜藍紋起司有汽油味❌，換別款起司就完美了！",
       location: "イオンモール徳島",
@@ -253,7 +253,7 @@ const foodData = [
       name: "黃豆粉御萩（きな粉おはぎ）",
       type: "其他",
       images: [
-        { src: "./images/food/tokushima-snake-rice-ball.jpeg", position: 55},
+        { src: "./images/food/tokushima-snake-rice-ball.webp", position: 55},
       ],
       description: "外層裹上香烘黃豆粉，內餡是綿密紅豆與Q彈糯米，甜而不膩，是最經典的日式懷舊點心。",
       location: "イオンモール徳島",
@@ -265,7 +265,7 @@ const foodData = [
       name: "蒙古タンメン中本",
       type: "其他",
       images: [
-        { src: "./images/food/tokushima-snake-ramen.jpeg", position: 60},
+        { src: "./images/food/tokushima-snake-ramen.webp", position: 60},
       ],
       description: "極辣味噌湯頭搭配 Q 彈捲麵，濃郁中帶豆腐與高麗菜的層次香氣，辣中帶香，加點牛奶更濃，一吃就上癮！",
       location: "イオンモール徳島",
@@ -277,7 +277,7 @@ const foodData = [
       name: "自助烏龍麵 山",
       type: "烏龍麵",
       images: [
-        { src: "./images/food/tokushima-udon.jpeg", position: 20},
+        { src: "./images/food/tokushima-udon.webp", position: 20},
       ],
       description: "早上也能吃到的烏龍麵店！咖哩濃郁、麵條Q彈，海帶鮮香又解膩，四國的烏龍麵果然從不讓人失望！",
       location: "セルフうどん やま 徳島駅前店",
@@ -289,7 +289,7 @@ const foodData = [
       name: "カレーパンノヒ（咖哩麵包之日）",
       type: "其他",
       images: [
-        { src: "./images/food/matsuyama-curry-bread.jpeg", position: 28},
+        { src: "./images/food/matsuyama-curry-bread.webp", position: 28},
       ],
       description: "大阪人氣咖哩麵包專門店，主打外酥內Q、餡料飽滿的進化系咖哩麵包，風味特別又超好吃！",
       location: "いよてつ髙島屋",
@@ -301,7 +301,7 @@ const foodData = [
       name: "鯛一郎クン 真鯛生魚片",
       type: "其他",
       images: [
-        { src: "./images/food/matsuyama-fish.jpeg", position: 65},
+        { src: "./images/food/matsuyama-fish.webp", position: 65},
       ],
       description: "超市也能吃到高品質！鯛一郎クン的真鯛生魚片，Q 彈鮮甜、毫無腥味，超級好吃！",
       location: "いよてつ髙島屋",
@@ -313,7 +313,7 @@ const foodData = [
       name: "愛媛蜜柑🍊",
       type: "其他",
       images: [
-        { src: "./images/food/matsuyama-orange.jpeg", position: 65},
+        { src: "./images/food/matsuyama-orange.webp", position: 65},
       ],
       description: "果皮薄、汁多味甜，是四國人氣水果！品種多樣，風味各有特色，怎麼吃都驚喜！",
       location: "いよてつ髙島屋",
@@ -325,7 +325,7 @@ const foodData = [
       name: "橘子水龍頭",
       type: "其他",
       images: [
-        { src: "./images/food/matsuyama-orange-juice.jpeg", position: 45},
+        { src: "./images/food/matsuyama-orange-juice.webp", position: 45},
       ],
       description: "傳說中的橘子水龍頭，來愛媛必喝！我們在松山城下剛好遇到最便宜的一家，一樣好喝！",
       location: "えひめ愛顔の観光物産館",
@@ -337,9 +337,9 @@ const foodData = [
       name: "松山鯛拉麵",
       type: "拉麵",
       images: [
-        { src: "./images/food/matsuyama-ramen-fish-1.jpeg", position: 85},
-        { src: "./images/food/matsuyama-ramen-fish-2.jpeg", position: 45},
-        { src: "./images/food/matsuyama-ramen-fish-3.jpeg", position: 30},
+        { src: "./images/food/matsuyama-ramen-fish-1.webp", position: 85},
+        { src: "./images/food/matsuyama-ramen-fish-2.webp", position: 45},
+        { src: "./images/food/matsuyama-ramen-fish-3.webp", position: 30},
       ],
       description: "隱身大街道商店街的鯛魚拉麵專門店，湯頭以瀨戶內鯛魚熬製，清澈鮮甜或濃厚香醇，喝得出鯛魚本身的鮮香與細緻，是冬日松山的一碗溫暖。",
       location: "松山鯛ラーメン万福久",
@@ -351,7 +351,7 @@ const foodData = [
       name: "現烤醬油仙貝",
       type: "其他",
       images: [
-        { src: "./images/food/matsuyama-cookie.jpeg", position: 40},
+        { src: "./images/food/matsuyama-cookie.webp", position: 40},
       ],
       description: "京都老字號仙貝專門店，道後溫泉街限定現烤版！炭火手工慢烤，搭配特製醬油醬料，酥脆中帶米香，香氣十足。",
       location: "おかき処 寺子屋本舗 道後店",
@@ -363,9 +363,9 @@ const foodData = [
       name: "松山鯛魚飯",
       type: "其他",
       images: [
-        { src: "./images/food/matsuyama-fish-rice-1.jpeg", position:10},
-        { src: "./images/food/matsuyama-fish-rice-2.jpeg", position: 30},
-        { src: "./images/food/matsuyama-fish-rice-3.jpeg", position: 40},
+        { src: "./images/food/matsuyama-fish-rice-1.webp", position:10},
+        { src: "./images/food/matsuyama-fish-rice-2.webp", position: 30},
+        { src: "./images/food/matsuyama-fish-rice-3.webp", position: 40},
         // { src: "./images/food/matsuyama-fish-rice.mp4", type: "video"},
       ],
       description: "鯛魚與米飯的極致協奏，中予風炊飯魚香濃郁，南予風生魚片蓋飯鮮甜滑順，在松山一次嚐盡愛媛鯛魚的兩種風情，來松山絕對不能錯過！！",
@@ -378,7 +378,7 @@ const foodData = [
       name: "骨太味覚",
       type: "拉麵",
       images: [
-        { src: "./images/food/matsuyama-ramen-big.jpeg", position:30},
+        { src: "./images/food/matsuyama-ramen-big.webp", position:30},
       ],
       description: "濃厚豚骨湯頭搭配爆量蔬菜與厚切叉燒，還能免費加蒜泥與蔬菜加量，滿足感爆棚的在地系拉麵！",
       location: "骨太味覚 本店",
@@ -390,7 +390,7 @@ const foodData = [
       name: "西宇和蜜柑🍊",
       type: "其他",
       images: [
-        { src: "./images/food/matsuyama-orange-s.jpeg", position:40},
+        { src: "./images/food/matsuyama-orange-s.webp", position:40},
       ],
       description: "西宇和蜜柑甜度高、水分多，從飯店吃到火車、從街上吃到登機口。只後悔沒多帶幾袋，回頭看愛媛這兩天根本就是一場橘子的巡禮。",
       location: "いよてつ髙島屋",
@@ -402,7 +402,7 @@ const foodData = [
       name: "はやし家製麺所",
       type: "烏龍麵",
       images: [
-        { src: "./images/food/takamatsu-udon-airport.jpeg", position:20},
+        { src: "./images/food/takamatsu-udon-airport.webp", position:20},
       ],
       description: "香川烏龍麵的最後一站，就在高松機場。離開前的一碗讚岐烏龍，Q 彈滑順、特別好吃，是這趟旅程最剛好的收尾。",
       location: "はやし家製麺所 高松空港店",
@@ -414,7 +414,7 @@ const foodData = [
       name: "壽司 × 水果",
       type: "其他",
       images: [
-        { src: "./images/food/takamatsu-supermarket.jpeg", position: 60},
+        { src: "./images/food/takamatsu-supermarket.webp", position: 60},
       ],
       description: "超市限定的平價奢華宵夜組合！壽司拼盤、唐揚雞與鮪魚刺身一次滿足，配上香甜的香川草莓與爆汁柑橘，再用橘子磅蛋糕完美收尾，幸福感滿點！",
       location: "コープ栗林",
@@ -426,7 +426,7 @@ const foodData = [
       name: "和歌山拉麵",
       type: "其他",
       images: [
-        { src: "./images/food/takamatsu-ramen-instant.jpeg", position: 50},
+        { src: "./images/food/takamatsu-ramen-instant.webp", position: 50},
       ],
       description: "來自和歌山的經典在地拉麵，以濃厚豚骨搭配深色醬油湯頭，鹹香平衡、醇厚回甘。細麵吸附湯汁力強，搭配筍乾與蔥花，一碗道地的紀州風味。",
       location: "コープ栗林",

@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
+import ShikokuHome from "./pages/ShikokuHome";
 import Takamatsu from "./pages/Takamatsu";
 import Tokushima from "./pages/Tokushima";
 import Matsuyama from "./pages/Matsuyama";
@@ -25,6 +26,7 @@ function App() {
         {/* 整站通用 Layout */}
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/shikoku" element={<ShikokuHome />} />
           <Route path="/takamatsu" element={<Takamatsu />} />
           <Route path="/tokushima" element={<Tokushima />} />
           <Route path="/matsuyama" element={<Matsuyama />} />

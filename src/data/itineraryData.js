@@ -4,7 +4,7 @@ const itineraryData = [
     description: "抵達高松前拍到的夕陽，機翼在雲海上劃過，這一幕就像幫我們這趟旅程按下開場的快門。",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-sky.jpeg",
+        src: "./images/takamatsu/takamatsu-sky.webp",
         position: 30
       },
     ],
@@ -15,7 +15,7 @@ const itineraryData = [
     description: "一下飛機就搭上前往高松市區的接駁巴士，大約 40 分鐘就能到高松站，旅行正式開始了！",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-airport-bus.jpeg",
+        src: "./images/takamatsu/takamatsu-airport-bus.webp",
         position: 50
       },
     ],
@@ -26,7 +26,7 @@ const itineraryData = [
     description: "在高松的夜裡抬頭一望，竟然能在市區看見這麼多星星。電線橫過天際，卻絲毫不減那份寧靜與美麗，像是旅途中無意間拾起的小驚喜。",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-star.jpeg",
+        src: "./images/takamatsu/takamatsu-star.webp",
         position: 30
       },
     ],
@@ -37,7 +37,7 @@ const itineraryData = [
     description: "旅途中最讓人安心的，是晚上還能隨時補貨的超市。今天晚餐與宵夜全靠它撐場！",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-supermarket.jpeg",
+        src: "./images/takamatsu/takamatsu-supermarket.webp",
         position: 40
       },
     ],
@@ -59,15 +59,15 @@ const itineraryData = [
     description: "小豆島橄欖公園以地中海風情與橄欖歷史聞名，希臘風車是《魔女宅急便》拍攝地。園內可拍飛天照，還有橄欖霜淇淋與特色郵筒，是小豆島必訪景點！",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-olive-park.jpeg",
+        src: "./images/takamatsu/takamatsu-olive-park.webp",
         position: "bottom"
       },
       {
-        src: "./images/takamatsu/takamatsu-olive-broom.jpeg",
+        src: "./images/takamatsu/takamatsu-olive-broom.webp",
         position: "bottom"
       },
       {
-        src: "./images/takamatsu/takamatsu-olive-witch.jpeg",
+        src: "./images/takamatsu/takamatsu-olive-witch.webp",
         position: 45
       },
     ],
@@ -78,15 +78,15 @@ const itineraryData = [
     description: "有百年歷史的釀造工廠，空氣中飄著濃濃醬香，感受小豆島的職人文化。",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-olive-soy-1.jpeg",
+        src: "./images/takamatsu/takamatsu-olive-soy-1.webp",
         position: 50
       },
       {
-        src: "./images/takamatsu/takamatsu-olive-soy-2.jpeg",
+        src: "./images/takamatsu/takamatsu-olive-soy-2.webp",
         position: 40
       },
       {
-        src: "./images/takamatsu/takamatsu-olive-soy-3.jpeg",
+        src: "./images/takamatsu/takamatsu-olive-soy-3.webp",
         position: 30
       },
     ],
@@ -97,7 +97,7 @@ const itineraryData = [
     description: "在小豆島的藥妝店 ZAG ZAG 隨手的自拍！雖然是島上的小店，但商品超齊全，日用品、藥品通通有，逛起來一點也不輸市區！",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-zag.jpeg",
+        src: "./images/takamatsu/takamatsu-zag.webp",
         position: 40
       },
     ],
@@ -108,15 +108,15 @@ const itineraryData = [
     description: "跟可愛的小豆島橄欖公車合照 🚌🫒📸",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-port-1.jpeg",
+        src: "./images/takamatsu/takamatsu-port-1.webp",
         position: 40
       },
       {
-        src: "./images/takamatsu/takamatsu-port-2.jpeg",
+        src: "./images/takamatsu/takamatsu-port-2.webp",
         position: 40
       },
       {
-        src: "./images/takamatsu/takamatsu-port-3.jpeg",
+        src: "./images/takamatsu/takamatsu-port-3.webp",
         position: 30
       },
     ],
@@ -127,15 +127,15 @@ const itineraryData = [
     description: "擁有全日本最高石垣的丸龜城，天守雖小但氣勢十足，優雅的扇形石牆令人驚艷。",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-castle-1.jpeg",
+        src: "./images/takamatsu/takamatsu-castle-1.webp",
         position: 50
       },
       {
-        src: "./images/takamatsu/takamatsu-castle-2.jpeg",
+        src: "./images/takamatsu/takamatsu-castle-2.webp",
         position: 70
       },
       {
-        src: "./images/takamatsu/takamatsu-castle-3.jpeg",
+        src: "./images/takamatsu/takamatsu-castle-3.webp",
         position: 45
       },
     ],
@@ -146,19 +146,19 @@ const itineraryData = [
     description: "在霧雨中挑戰785階石梯，神社籠罩薄霧，更添神秘與莊嚴氣息。",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-temple-1.jpeg",
+        src: "./images/takamatsu/takamatsu-temple-1.webp",
         position: 50
       },
       {
-        src: "./images/takamatsu/takamatsu-temple-2.jpeg",
+        src: "./images/takamatsu/takamatsu-temple-2.webp",
         position: 40
       },
       {
-        src: "./images/takamatsu/takamatsu-temple-3.jpeg",
+        src: "./images/takamatsu/takamatsu-temple-3.webp",
         position: 50
       },
       {
-        src: "./images/takamatsu/takamatsu-temple-4.jpeg",
+        src: "./images/takamatsu/takamatsu-temple-4.webp",
         position: 60
       },
     ],
@@ -169,23 +169,23 @@ const itineraryData = [
     description: "漫步於江戶時代的迴遊式日式庭園，松林倒映在池水中，是高松最優雅的片刻。",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-park-1.jpeg",
+        src: "./images/takamatsu/takamatsu-park-1.webp",
         position: 50
       },
       {
-        src: "./images/takamatsu/takamatsu-park-2.jpeg",
+        src: "./images/takamatsu/takamatsu-park-2.webp",
         position: 80
       },
       {
-        src: "./images/takamatsu/takamatsu-park-3.jpeg",
+        src: "./images/takamatsu/takamatsu-park-3.webp",
         position: 60
       },
       {
-        src: "./images/takamatsu/takamatsu-park-4.jpeg",
+        src: "./images/takamatsu/takamatsu-park-4.webp",
         position: 50
       },
       {
-        src: "./images/takamatsu/takamatsu-park-5.jpeg",
+        src: "./images/takamatsu/takamatsu-park-5.webp",
         position: 90
       },
     ],
@@ -196,15 +196,15 @@ const itineraryData = [
     description: "走進德島的舞蹈文化中心，能親自上台體驗阿波舞步！還有展示歷史的博物館、販售特產的物產館，以及通往眉山的纜車站，來德島不可錯過的文化設施。",
     images: [
       {
-        src: "./images/tokushima/tokushima-dance-3.jpeg",
+        src: "./images/tokushima/tokushima-dance-3.webp",
         position: 65
       },
       {
-        src: "./images/tokushima/tokushima-dance-1.jpeg",
+        src: "./images/tokushima/tokushima-dance-1.webp",
         position: 50
       },
       {
-        src: "./images/tokushima/tokushima-dance-4.jpeg",
+        src: "./images/tokushima/tokushima-dance-4.webp",
         position: 25
       },
       {
@@ -219,19 +219,19 @@ const itineraryData = [
     description: "搭纜車登上眉山，在山頂俯瞰德島市景與河川交織，剛好遇到一場細雪，格外難忘。",
     images: [
       {
-        src: "./images/tokushima/tokushima-cable-1.jpeg",
+        src: "./images/tokushima/tokushima-cable-1.webp",
         position: 60
       },
       {
-        src: "./images/tokushima/tokushima-cable-2.jpeg",
+        src: "./images/tokushima/tokushima-cable-2.webp",
         position: 50 
       },
       {
-        src: "./images/tokushima/tokushima-cable-3.jpeg",
+        src: "./images/tokushima/tokushima-cable-3.webp",
         position: 70
       },
       {
-        src: "./images/tokushima/tokushima-cable-4.jpeg",
+        src: "./images/tokushima/tokushima-cable-4.webp",
         position: 40
       },
       {
@@ -246,19 +246,19 @@ const itineraryData = [
     description: "沿著橋體延伸出的「渦之道」，從 45 公尺高空俯瞰海流奔騰，感受壯麗又寧靜的自然景觀。",
     images: [
       {
-        src: "./images/tokushima/tokushima-bridge-1.jpeg",
+        src: "./images/tokushima/tokushima-bridge-1.webp",
         position: 60
       },
       {
-        src: "./images/tokushima/tokushima-bridge-2.jpeg",
+        src: "./images/tokushima/tokushima-bridge-2.webp",
         position: 50 
       },
       {
-        src: "./images/tokushima/tokushima-bridge-3.jpeg",
+        src: "./images/tokushima/tokushima-bridge-3.webp",
         position: 45
       },
       {
-        src: "./images/tokushima/tokushima-bridge-4.jpeg",
+        src: "./images/tokushima/tokushima-bridge-4.webp",
         position: 10
       },
     ],
@@ -269,11 +269,11 @@ const itineraryData = [
     description: "德島最熱鬧的購物中心，從超市到美食街一應俱全，也是德島少數能逛到 UNIQLO 的地方。",
     images: [
       {
-        src: "./images/tokushima/tokushima-mall-1.jpeg",
+        src: "./images/tokushima/tokushima-mall-1.webp",
         position: 50
       },
       {
-        src: "./images/tokushima/tokushima-mall-2.jpeg",
+        src: "./images/tokushima/tokushima-mall-2.webp",
         position: 70
       },
     ],
@@ -284,7 +284,7 @@ const itineraryData = [
     description: "梅津寺站月台緊鄰瀨戶內海，視野開闊，海天一色的美景近在眼前，尤其黃昏最為迷人，超適合拍照看海，一定要來！",
     images: [
       {
-        src: "./images/matsuyama/matsuyama-beach.jpeg",
+        src: "./images/matsuyama/matsuyama-beach.webp",
         position: 70
       },
       {
@@ -292,7 +292,7 @@ const itineraryData = [
         position: 70
       },
       {
-        src: "./images/matsuyama/matsuyama-orange-shop.jpeg",
+        src: "./images/matsuyama/matsuyama-orange-shop.webp",
         position: 50
       },
     ],
@@ -303,7 +303,7 @@ const itineraryData = [
     description: "高島屋頂樓的摩天輪，可 360 度眺望松山城、道後溫泉與瀨戶內海，是松山的超人氣地標。外國遊客還享半價優惠！",
     images: [
       {
-        src: "./images/matsuyama/matsuyama-wheel.jpeg",
+        src: "./images/matsuyama/matsuyama-wheel.webp",
         position: 70
       },
     ],
@@ -314,27 +314,27 @@ const itineraryData = [
     description: "坐落山頂的松山城，是現存天守之一。可搭吊椅登城，還能試穿武士盔甲、體驗 VR，沉浸式感受濃濃的日本歷史氛圍。",
     images: [
       {
-        src: "./images/matsuyama/matsuyama-catsle-1.jpeg",
+        src: "./images/matsuyama/matsuyama-catsle-1.webp",
         position: 40
       },
       {
-        src: "./images/matsuyama/matsuyama-catsle-2.jpeg",
+        src: "./images/matsuyama/matsuyama-catsle-2.webp",
         position: 40
       },
       {
-        src: "./images/matsuyama/matsuyama-catsle-3.jpeg",
+        src: "./images/matsuyama/matsuyama-catsle-3.webp",
         position: 40
       },
       {
-        src: "./images/matsuyama/matsuyama-catsle-4.jpeg",
+        src: "./images/matsuyama/matsuyama-catsle-4.webp",
         position: 40
       },
       {
-        src: "./images/matsuyama/matsuyama-catsle-5.jpeg",
+        src: "./images/matsuyama/matsuyama-catsle-5.webp",
         position: 50
       },
       {
-        src: "./images/matsuyama/matsuyama-catsle-6.jpeg",
+        src: "./images/matsuyama/matsuyama-catsle-6.webp",
         position: 50
       },
     ],
@@ -345,27 +345,27 @@ const itineraryData = [
     description: "據說是《神隱少女》取景靈感地，溫泉本館旁有免費泡腳池，走累了剛好放鬆。商店街常可見穿浴衣散步的旅客，充滿溫泉街的獨特氣氛。",
     images: [
       {
-        src: "./images/matsuyama/matsuyama-onsen1.jpeg",
+        src: "./images/matsuyama/matsuyama-onsen1.webp",
         position: "bottom"
       },
       {
-        src: "./images/matsuyama/matsuyama-onsen2.jpeg",
+        src: "./images/matsuyama/matsuyama-onsen2.webp",
         position: 100
       },
       {
-        src: "./images/matsuyama/matsuyama-onsen3.jpeg",
+        src: "./images/matsuyama/matsuyama-onsen3.webp",
         position: 70
       },
       {
-        src: "./images/matsuyama/matsuyama-onsen4.jpeg",
+        src: "./images/matsuyama/matsuyama-onsen4.webp",
         position: "center"
       },
       {
-        src: "./images/matsuyama/matsuyama-onsen5.jpeg",
+        src: "./images/matsuyama/matsuyama-onsen5.webp",
         position: 65
       },
       {
-        src: "./images/matsuyama/matsuyama-onsen6.jpeg",
+        src: "./images/matsuyama/matsuyama-onsen6.webp",
         position: 50
       },
     ],
@@ -376,7 +376,7 @@ const itineraryData = [
     description: "松山市最熱鬧的拱廊商店街，百貨、伴手禮、雜貨店林立，從名產到手作通通找得到，雨天也能悠閒漫步其中。",
     images: [
       {
-        src: "./images/matsuyama/matsuyama-street.jpeg",
+        src: "./images/matsuyama/matsuyama-street.webp",
         position: 45
       },
     ],
@@ -387,7 +387,7 @@ const itineraryData = [
     description: "以靈山石鎚山為名的特急列車，行駛於松山與高松之間。銀色車身配藍紋標誌十分搶眼，搭車時記得確認編組，不小心會搭到開往岡山的另一半。",
     images: [
       {
-        src: "./images/matsuyama/matsuyama-train-to-takamatsu.jpeg",
+        src: "./images/matsuyama/matsuyama-train-to-takamatsu.webp",
         position: 45
       },
     ],
@@ -398,7 +398,7 @@ const itineraryData = [
     description: "四國交通的核心車站，連接松山、德島與本州，也可轉船前往小豆島與直島。現代化建築與海港相鄰，是我們旅程的起點與終點。",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-station.jpeg",
+        src: "./images/takamatsu/takamatsu-station.webp",
         position: 65
       },
     ],
@@ -409,15 +409,15 @@ const itineraryData = [
     description: "跟印象中完全不同，高松機場超級樸素！只有幾個 check-in 櫃台、四個出境窗口，一個安檢機和登機門，小歸小但效率很高。",
     images: [
       {
-        src: "./images/takamatsu/takamatsu-airplane-1.jpg",
+        src: "./images/takamatsu/takamatsu-airplane-1.webp",
         position: 40
       },
       {
-        src: "./images/takamatsu/takamatsu-airplane-2.jpeg",
+        src: "./images/takamatsu/takamatsu-airplane-2.webp",
         position: 40
       },
       {
-        src: "./images/takamatsu/takamatsu-airplane-3.jpeg",
+        src: "./images/takamatsu/takamatsu-airplane-3.webp",
         position: 50
       },
     ],

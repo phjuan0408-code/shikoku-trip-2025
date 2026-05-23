@@ -6,9 +6,9 @@ import HotelCard from "../components/HotelCard";
 
 export default function matsuyama() {
   const days = [
-    { day: "Day5", image: "./images/day5-2-nav.jpeg", link: "/day5" },
-    { day: "Day6", image: "./images/day6-nav.jpeg", link: "/day6" },
-    { day: "Day7", image: "./images/day7-nav.jpeg", link: "/day7" },
+    { day: "Day5", image: "./images/day5-2-nav.webp", link: "/day5" },
+    { day: "Day6", image: "./images/day6-nav.webp", link: "/day6" },
+    { day: "Day7", image: "./images/day7-nav.webp", link: "/day7" },
   ];
   
   return (
@@ -16,7 +16,7 @@ export default function matsuyama() {
       <div className="max-w-6xl mx-auto pt-5 grid grid-cols-1 md:grid-cols-12 gap-10 md:items-end">
         <div className="md:col-span-5">
           <img
-            src="./images/matsuyama/matsuyama-Home.jpeg"
+            src="./images/matsuyama/matsuyama-Home.webp"
             alt="matsuyama lift view"
             className="rounded-lg shadow-md w-full h-full max-h-[500px] object-cover object-center"
           />

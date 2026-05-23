@@ -3,6 +3,8 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
+  { label: "Japan Map", path: "/" },
+  { label: "Shikoku", path: "/shikoku" },
   { label: "Takamatsu", path: "/takamatsu" },
   { label: "Tokushima", path: "/tokushima" },
   { label: "Matsuyama", path: "/matsuyama" },
@@ -16,7 +18,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-      <Link to="/" className="text-xl font-bold hover:text-blue-600 transition">
+      <Link to="/shikoku" className="text-xl font-bold hover:text-blue-600 transition">
         Goshikoku
       </Link>
 

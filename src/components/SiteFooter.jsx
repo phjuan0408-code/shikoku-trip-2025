@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
 
 export default function SiteFooter({
-  authorImage = "./images/me.jpg",
+  authorImage = "./images/me-on-train.webp",
   authorName = "About Here",
   authorQuote = "旅行不必總有驚喜，能記得，就是風景。",
-  bannerImage = "./images/footer-banner.jpg",
+  bannerImage = "./images/olive-island-sunset.webp",
   bannerAlt = "Seto Inland Sea",
 }) {
   const [showButton, setShowButton] = useState(false);

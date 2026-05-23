@@ -7,9 +7,9 @@ import HotelCard from "../components/HotelCard";
 
 export default function Takamatsu() {
   const days = [
-    { day: "Day1", image: "./images/day1-nav.jpeg", link: "/day1" },
-    { day: "Day2", image: "./images/day2-nav.jpeg", link: "/day2" },
-    { day: "Day3", image: "./images/day3-1-nav.jpeg", link: "/day3" },
+    { day: "Day1", image: "./images/day1-nav.webp", link: "/day1" },
+    { day: "Day2", image: "./images/day2-nav.webp", link: "/day2" },
+    { day: "Day3", image: "./images/day3-1-nav.webp", link: "/day3" },
   ];
 
   return (
@@ -18,7 +18,7 @@ export default function Takamatsu() {
       <CityIntro
         title="About Takamatsu"
         subtitle="香川縣 高松市"
-        imageSrc="./images/takamatsu/takamatsu-ferry.jpeg"
+        imageSrc="./images/takamatsu/takamatsu-ferry.webp"
         imageAlt="Takamatsu ferry"
         paragraphs={[
           "高松，是一座被烏龍麵香氣輕輕包圍的城市。無論是清晨的熱湯烏龍、午後的冷麵，或是回國前匆忙吃下的最後一碗沾麵，每一口都像是在嚐四國的日常。",

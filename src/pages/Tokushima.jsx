@@ -6,9 +6,9 @@ import HotelCard from "../components/HotelCard";
 
 export default function Ehime() {
   const days = [
-    { day: "Day3", image: "./images/day3-2-nav.jpeg", link: "/day3"  },
-    { day: "Day4", image: "./images/day4-nav.jpeg", link: "/day4"  },
-    { day: "Day5", image: "./images/day5-1-nav.jpeg", link: "/day5"  },
+    { day: "Day3", image: "./images/day3-2-nav.webp", link: "/day3"  },
+    { day: "Day4", image: "./images/day4-nav.webp", link: "/day4"  },
+    { day: "Day5", image: "./images/day5-1-nav.webp", link: "/day5"  },
   ];
 
   return (
@@ -16,7 +16,7 @@ export default function Ehime() {
       <CityIntro
         title="About Tokushima"
         subtitle="德島縣 徳島市"
-        imageSrc="./images/tokushima/tokushima-bridge.jpeg"
+        imageSrc="./images/tokushima/tokushima-bridge.webp"
         imageAlt="Naruto Bridge"
         paragraphs={[
           "德島，是一座站在漩渦入口的城市。面向鳴門海峽，靜靜守著瀨戶內海與太平洋的交界。潮流在此奔湧、旋轉、交織出時而澎湃、時而平靜的風景。壯觀的漩渦並非日日可見，卻也因這份不可預期，更添想像與期待。",
