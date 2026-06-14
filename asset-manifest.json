@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/shikoku-trip-2025/static/css/main.56747874.css",
+    "main.js": "/shikoku-trip-2025/static/js/main.a71f59dc.js",
+    "static/media/shikoku-merged.geojson": "/shikoku-trip-2025/static/media/shikoku-merged.1c00b7a12c105a970010.geojson",
+    "index.html": "/shikoku-trip-2025/index.html",
+    "main.56747874.css.map": "/shikoku-trip-2025/static/css/main.56747874.css.map",
+    "main.a71f59dc.js.map": "/shikoku-trip-2025/static/js/main.a71f59dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56747874.css",
+    "static/js/main.a71f59dc.js"
+  ]
+}
