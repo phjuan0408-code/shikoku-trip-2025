@@ -6,6 +6,7 @@ export default function ShikokuHome() {
     <div>
       <Banner
         title="SHIKOKU"
+        meta="2025/1/4 - 1/11"
         subtitle="沒有驚喜萬分，卻讓人難以忘懷。"
         imageUrl="./images/home-banner.webp"
       />

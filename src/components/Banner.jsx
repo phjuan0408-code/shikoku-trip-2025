@@ -1,6 +1,6 @@
 import { ChevronDown } from "lucide-react";
 
-export default function Banner({ title, subtitle, imageUrl }) {
+export default function Banner({ title, subtitle, meta, imageUrl }) {
   const scrollToMap = () => {
     const mapSection = document.getElementById("shikoku-map");
     if (mapSection) {
@@ -15,6 +15,11 @@ export default function Banner({ title, subtitle, imageUrl }) {
     >
       <div className="text-center font-serif">
         <h1 className="text-5xl font-bold">{title}</h1>
+        {meta && (
+          <p className="mt-3 text-sm font-semibold uppercase tracking-[0.2em] text-white/85 md:text-base">
+            {meta}
+          </p>
+        )}
         <p className="text-lg mt-2">{subtitle}</p>
       </div>
 
